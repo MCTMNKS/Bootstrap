@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-link:hover{
+    color: grey;
+    transition: 0.8ms, 0.8ms;
+}
+.search{
+    height: 35px;
+    width: 80%;
+    border-radius: 40px;
+    border: 2px solid rgb(black, black, black);
+    margin-right: -35px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn0{
+    height: 35px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: black;
+    border-radius: 40px;
+    color: white;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.racers{
+    width: 80%;
+    margin: auto;
+}
+.racers-heading{
+    margin-top: 5rem;
+}
+.racers-images{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
